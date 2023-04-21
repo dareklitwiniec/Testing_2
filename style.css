@@ -1,0 +1,107 @@
+.square {
+    width:200px;
+    height: 200px;
+    background-color: #b497c7;
+    position: relative;
+  } 
+  .circle {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3DB3D6;
+  } 
+  .circle {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3DB3D6;
+  }
+  
+  .circle.outer {
+    position: relative;
+  }
+  
+  .circle.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 3px solid #fff;
+  }
+  
+  #c1 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #c2 {
+    width: 50px;
+    height: 50px;
+    left: 10%;
+  }
+  
+  #c3 {
+    width: 25px;
+    height: 25px;
+    left: 20%;
+  } 
+  .container {
+      box-shadow: 0 0 20px gray;
+      width: 960px;
+      margin: 0 auto;
+      
+  }
+  header {
+      display: flex;
+      align-items: 0 auto;
+      justify-content: space-between;
+      padding: 30px;
+  }
+  h1 {
+    text-align: center;
+    Padding-top: 40px;
+    font-family: arial;
+  }
+  
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.quarter {
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.quarter.yellow {
+    background: #FBC15D;
+    clip: rect(0px, 100px, 100px, 0px);
+    width: 200px;
+}
+.quarter.orange {
+    background: #F5A832;
+    clip: rect(0px, 200px, 100px, 100px);
+    width: 200px;
+}
+
+.quarter.bordo {
+    background: #B6436A;
+    clip: rect(100px,200px, 200px, 100px);
+    width: 200px;
+}
+
+.quarter.pink {
+    background: #D16D83;
+    clip: rect(100px, 100px, 200px, 0px);
+    width: 200px;
+}
+.quarter.yellow:hover {
+    color: aquamarine;
+    background: red;
+}
+.myCanvas {
+    margin:0 auto;
+    display:block;
+}
