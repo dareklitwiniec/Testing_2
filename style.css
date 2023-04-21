@@ -45,7 +45,7 @@
     left: 20%;
   } 
   .container {
-      box-shadow: 0 0 20px gray;
+      box-shadow: 0 0 20px grey;
       width: 960px;
       margin: 0 auto;
       
@@ -76,7 +76,7 @@
 }
 
 .quarter.yellow {
-    background: #FBC15D;
+    background: #fff;
     clip: rect(0px, 100px, 100px, 0px);
     width: 200px;
 }
